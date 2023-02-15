@@ -1,0 +1,50 @@
+name: flutter_shop_app
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.5
+  add_to_cart_animation: ^2.0.3
+  cached_network_image: ^3.2.3
+  flutter_staggered_animations: ^1.1.1
+
+  # State Management
+  provider: ^6.0.5
+
+  # Data Management
+  http: ^0.13.5
+  shared_preferences: ^2.0.17
+
+  # Utils
+  intl: ^0.18.0
+  string_validator: ^0.3.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700

@@ -1,0 +1,1 @@
+enum PreferencesKeysEnum { isFirstApp, userData }
